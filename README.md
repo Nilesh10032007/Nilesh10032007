@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/dark.svg?v=4.0">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/light.svg?v=4.0">
-  <img alt="Nilesh Choudhary Profile Banner" src="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/dark.svg?v=4.0" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/dark.svg?v=5.0">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/light.svg?v=5.0">
+  <img alt="Nilesh Choudhary Profile Banner" src="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/dark.svg?v=5.0" width="100%">
 </picture>
 
 ## Hi there 👋 I'm Nilesh Choudhary
