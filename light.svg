@@ -33,16 +33,6 @@
       </stop>
     </linearGradient>
 
-    <!-- Shifting Gradient for ASCII (Blue to Cyan) -->
-    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2563EB">
-        <animate attributeName="stop-color" values="#2563EB; #06B6D4; #2563EB" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#06B6D4">
-        <animate attributeName="stop-color" values="#06B6D4; #10B981; #06B6D4" dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-
     <!-- Scanline Gradients -->
     <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
@@ -54,13 +44,9 @@
     <clipPath id="leftPanelClip"><rect x="40" y="40" width="410" height="530" rx="16"/></clipPath>
     <clipPath id="rightPanelClip"><rect x="480" y="40" width="660" height="530" rx="16"/></clipPath>
 
-    <!-- ASCII Typing ClipPath (Line-by-line reveal via height) -->
-    <clipPath id="asciiClip">
-      <rect x="50" y="140" width="390" height="0">
-        <animate attributeName="height" values="0; 22; 44; 66; 88; 110; 132; 154; 176; 198; 220; 242; 270"
-                 keyTimes="0; 0.08; 0.16; 0.24; 0.32; 0.40; 0.48; 0.56; 0.64; 0.72; 0.80; 0.88; 1"
-                 dur="2.2s" begin="0.6s" fill="freeze" calcMode="discrete"/>
-      </rect>
+    <!-- Profile Photo ClipPath -->
+    <clipPath id="photoClip">
+      <circle cx="245" cy="230" r="90"/>
     </clipPath>
 
     <!-- Terminal Text Typing ClipPaths (Row-by-row) -->
@@ -140,13 +126,8 @@
     <animate attributeName="cx" values="700; 730; 700" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0; 0.5; 0" dur="11s" repeatCount="indefinite"/>
   </circle>
-  <!-- Particle 4 -->
-  <circle cx="980" cy="460" r="2" fill="#2563EB" opacity="0.2">
-    <animate attributeName="cy" values="460; 60" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0.4; 0" dur="14s" repeatCount="indefinite"/>
-  </circle>
 
-  <!-- ==================== LEFT PANEL (ASCII ART CARD) ==================== -->
+  <!-- ==================== LEFT PANEL (PROFILE PHOTO CARD) ==================== -->
   <!-- Glass Panel Shadow/Blur -->
   <rect x="40" y="40" width="410" height="530" rx="16" fill="#F8FAFC" fill-opacity="0.8" filter="url(#glassBlur)"/>
   <!-- Glass Panel Body -->
@@ -163,49 +144,33 @@
     <animate attributeName="opacity" values="1; 0.3; 1" dur="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- ASCII Art Frame & Label -->
+  <!-- Divider Frame -->
   <rect x="70" y="105" width="350" height="1" fill="rgba(15,23,42,0.08)" />
 
-  <!-- Floating Glowing ASCII Portrait -->
+  <!-- Floating Glowing Profile Photo -->
   <g clip-path="url(#leftPanelClip)">
-    <g filter="url(#asciiGlow)">
+    <g>
       <!-- Gentle Floating Transformation -->
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="6s" repeatCount="indefinite" additive="sum"/>
       
-      <!-- ASCII Characters wrapped in Line-by-line reveal clip -->
-      <g clip-path="url(#asciiClip)">
-        <text x="100" y="170" class="font-mono" font-size="13" fill="url(#asciiGrad)" xml:space="preserve" font-weight="bold" letter-spacing="1.2">
-          <tspan x="100" dy="0">        _,,--------,,_        </tspan>
-          <tspan x="100" dy="20">     ,-'              `-,     </tspan>
-          <tspan x="100" dy="20">   ,'  ____        ____  `,   </tspan>
-          <tspan x="100" dy="20">  /   /    \      /    \   \  </tspan>
-          <tspan x="100" dy="20"> |   |  ()  |    |  ()  |   | </tspan>
-          <tspan x="100" dy="20"> |   `-____-'    `-____-'   | </tspan>
-          <tspan x="100" dy="20"> |             __           | </tspan>
-          <tspan x="100" dy="20"> |            /  \          | </tspan>
-          <tspan x="100" dy="20">  \          \____/        /  </tspan>
-          <tspan x="100" dy="20">   `,                    ,'   </tspan>
-          <tspan x="100" dy="20">     `-,              ,-'     </tspan>
-          <tspan x="100" dy="20">        `''--------''`        </tspan>
-        </text>
-      </g>
+      <!-- Spinning dashed tech ring -->
+      <circle cx="245" cy="230" r="102" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="8 12" fill="none" opacity="0.4">
+        <animateTransform attributeName="transform" type="rotate" from="0 245 230" to="360 245 230" dur="25s" repeatCount="indefinite" additive="sum"/>
+      </circle>
+
+      <!-- Glowing outer circle -->
+      <circle cx="245" cy="230" r="95" stroke="url(#borderGrad)" stroke-width="2.5" fill="none" filter="url(#asciiGlow)"/>
+
+      <!-- Profile Photo -->
+      <image href="https://github.com/Nilesh10032007.png" x="155" y="140" width="180" height="180" clip-path="url(#photoClip)">
+        <animate attributeName="opacity" values="0; 1" dur="1.5s" begin="0.2s" fill="freeze"/>
+      </image>
     </g>
   </g>
 
-  <!-- ASCII Typing Blinking Cursor (hides after reveal) -->
-  <rect x="290" y="405" width="8" height="15" fill="#2563EB" opacity="1">
-    <animate attributeName="y" values="155; 175; 195; 215; 235; 255; 275; 295; 315; 335; 355; 375; 395"
-             keyTimes="0; 0.08; 0.16; 0.24; 0.32; 0.40; 0.48; 0.56; 0.64; 0.72; 0.80; 0.88; 1"
-             dur="2.2s" begin="0.6s" fill="freeze" calcMode="discrete"/>
-    <animate attributeName="x" values="240; 270; 285; 295; 295; 295; 285; 285; 285; 285; 270; 240; 240"
-             keyTimes="0; 0.08; 0.16; 0.24; 0.32; 0.40; 0.48; 0.56; 0.64; 0.72; 0.80; 0.88; 1"
-             dur="2.2s" begin="0.6s" fill="freeze" calcMode="discrete"/>
-    <animate attributeName="opacity" values="1; 0; 1" dur="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="visibility" values="visible; hidden" dur="0.1s" begin="2.8s" fill="freeze"/>
-  </rect>
-
-  <text x="205" y="470" class="font-mono" font-size="16" fill="#0F172A" font-weight="700" text-anchor="middle" letter-spacing="2">@Nilesh10032007</text>
-  <text x="205" y="495" class="font-mono" font-size="12" fill="#475569" text-anchor="middle">SECURE_INTERFACE</text>
+  <!-- Center-aligned labels -->
+  <text x="245" y="470" class="font-mono" font-size="16" fill="#0F172A" font-weight="700" text-anchor="middle" letter-spacing="2">@Nilesh10032007</text>
+  <text x="245" y="495" class="font-mono" font-size="12" fill="#475569" text-anchor="middle">SECURE_INTERFACE</text>
 
   <!-- ==================== RIGHT PANEL (TERMINAL WINDOW) ==================== -->
   <!-- Glass Panel Shadow/Blur -->
