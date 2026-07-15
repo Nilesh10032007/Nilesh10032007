@@ -166,30 +166,30 @@
       <!-- High Density ASCII Portrait Render of Nilesh's Face -->
       <g clip-path="url(#asciiClip)">
         <text x="80" y="140" class="font-mono" font-size="8.2" fill="url(#asciiGrad)" xml:space="preserve" font-weight="bold" letter-spacing="1.2">
-          <tspan x="80" dy="0">CG: .;iCttCttCi,,;:.:,,,1;,:80,  ,;;it1:..</tspan>
-          <tspan x="80" dy="11">08G1,.C@@008GG000G;iCGCCCtt1CC;;;tCt1;,,i1</tspan>
-          <tspan x="80" dy="11">8@@@GGG0G08@0G08@@GtCGGCGGG88G0800GCt;:i1t</tspan>
-          <tspan x="80" dy="11">@08@880CC8@@GCCGGGCtC088C0@@@@0GCCCC1ttCGC</tspan>
-          <tspan x="80" dy="11">@8080CG0@8GGG00GC0C11tCCGCCGGGG0@@8CtCGGGG</tspan>
-          <tspan x="80" dy="11">@@880@888CtGCG00GCt0G880Ctt80C0800GG000GG0</tspan>
-          <tspan x="80" dy="11">@@8@@@@8@8@@@@@@0CCGG@@88@0@@@0G0@@0Ct008@</tspan>
-          <tspan x="80" dy="11">@88@80@@@@@@@@@@@@@@8@@@@@@80@8080CG000CG0</tspan>
-          <tspan x="80" dy="11">8G0@@@G088@@@@@@@8@@@@@@@@00@8GCGC10@@8880</tspan>
-          <tspan x="80" dy="11">CG8880GG0@@@@@@@@@@@@@@@@@GG88@88808@@@@@@</tspan>
-          <tspan x="80" dy="11">0@8GtC08@@@8t11tCC11t0@@@titt0@80@@@@@@@80</tspan>
-          <tspan x="80" dy="11">808@@@08@@@;         :G@@iC08@@8G880G8@@08</tspan>
-          <tspan x="80" dy="11">GG@@0GG@@@G,         ,C@@88@@GGGCt8@@@@8@@</tspan>
-          <tspan x="80" dy="11">8@@@@@@@8@;;i1t1::;i1tC@00@@Ct1;88GG@@@@@@</tspan>
-          <tspan x="80" dy="11">:1@@08@C;CCC1tCCCCtiC808GC8@@@@8GC11G0G0@@</tspan>
-          <tspan x="80" dy="11">;8C1.i@0,i;i.  ,:.;...18G;ttG1t@1,.C@C,:1t</tspan>
-          <tspan x="80" dy="11">GG,, ;@8C1C,;;:i::ti:;G@t . :  ;0  ,,..,1t</tspan>
-          <tspan x="80" dy="11">G080.;@@@@81,:iiitC1,i@@; ,;1i:iG;;1i1C8@@</tspan>
-          <tspan x="80" dy="11">,ii;..1it1t@Gi;::;i1C8Ct:.tttt11111ttt1tt1</tspan>
-          <tspan x="80" dy="11">.        .,C@@0i;iG8@@,  :;tC:            </tspan>
-          <tspan x="80" dy="11">   .:;...,. ;G@@@@@@@8;,,  :t1............</tspan>
-          <tspan x="80" dy="11">tC08@1... ..  ,iCGGt;: :08C1GG;.          </tspan>
-          <tspan x="80" dy="11">@@@@C .     ..      .. ..G@@@@@8Gt;. .    </tspan>
-          <tspan x="80" dy="11">@@@@0000;......:1@@C@@@@@@1 .   .         </tspan>
+          <tspan x="80" dy="0">:,,;itL1LCttCt;,:i:,:::,i1;:i88i,,,:;i1tL1</tspan>
+          <tspan x="80" dy="11">Ci:,i8@8G00GLCCCGt;iCCLtCLtt1CG;::itt1t1;:</tspan>
+          <tspan x="80" dy="11">@8L1t880G0@0G@@@@8LLCGGLCCCCGGCLGG00CCt::;</tspan>
+          <tspan x="80" dy="11">@@8@8GLC8@@0LLG000GCCG0GGG08@@808GGCCLtttt</tspan>
+          <tspan x="80" dy="11">0880GGGG8@8GGGGGGGLtL088GC0@@@@GCCCCGCtLtC</tspan>
+          <tspan x="80" dy="11">000CC08@0LGGG0GCC0L1ttLCCGLLCCCG0@@@0LtCGG</tspan>
+          <tspan x="80" dy="11">8808@88GLLGCCG0GGLL0G080GLtL@GCG@0GGGG000G</tspan>
+          <tspan x="80" dy="11">8@@@@88@0@@@@8@@CtLGG@@@888G@@@GCC8@@0CLG0</tspan>
+          <tspan x="80" dy="11">@@800@@@@@@@@@@@@@@808@@8@@080@@@@@8CCCC8G</tspan>
+          <tspan x="80" dy="11">0@@@88@@@@@@@@@@@@@@@@@@@@@8888GLLL1t8@@0C</tspan>
+          <tspan x="80" dy="11">88@@0tGG8@@@@@@888@@@@@@@@@CC8@80G8GL0@@@@</tspan>
+          <tspan x="80" dy="11">000GG888@@@@@@@@@@@@@@@@@@0C00088G808@@@@@</tspan>
+          <tspan x="80" dy="11">8GLLG0@@@@8t111LLL11tC@@@0i1ttG@@08@@@@@@@</tspan>
+          <tspan x="80" dy="11">8@@@8G@@@8;,,,,,,,,,,,t@@GiG00@@8G0@0GC0@@</tspan>
+          <tspan x="80" dy="11">@@8GG0@@@8;,,,,,::,,,:t@@@G8@@@80GLL@@@@@8</tspan>
+          <tspan x="80" dy="11">@@008@@@@i,:;;;:,,::::t0@8@@@C1i1CG00@@@@@</tspan>
+          <tspan x="80" dy="11">@@@@@@CC0tLLC0801CLLG8088t0@@0881G@0tL@@@@</tspan>
+          <tspan x="80" dy="11">8@Ct@@iiLLC;ii;ttCi;1LC08GL8@@@@@G11itGG1C</tspan>
+          <tspan x="80" dy="11">ti,:8@G,t;1:,,:1,;i,,,;G0tiL1LiiGGi,,0@C:i</tspan>
+          <tspan x="80" dy="11">::::G88tLL:11ii1;iL1iiL@8i,:,;,,,81,,::,,:</tspan>
+          <tspan x="80" dy="11">00:,8@@@881:;1itLGCt:;0@C:::iti::G1:;1iitG</tspan>
+          <tspan x="80" dy="11">CC:,L0L8C00L;;i;;i11iG88L,,C1LCLCGGGG000G0</tspan>
+          <tspan x="80" dy="11">,,,,,,:,,i@@8Ciii1tC@@1,::ittLi:::,:,,,,,,</tspan>
+          <tspan x="80" dy="11">::,,::,:;,;0@@0LtC8@@@L,,:::CCi,,,,,,::,::</tspan>
         </text>
       </g>
     </g>
