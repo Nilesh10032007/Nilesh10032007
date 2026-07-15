@@ -1,16 +1,15 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/light.svg">
+  <img alt="Nilesh Choudhary Profile Banner" src="https://raw.githubusercontent.com/Nilesh10032007/Nilesh10032007/main/dark.svg" width="100%">
+</picture>
 
-<!--
-**Nilesh10032007/Nilesh10032007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Hi there 👋 I'm Nilesh Choudhary
 
-Here are some ideas to get you started:
+I'm a passionate developer focused on Frontend Engineering, Full Stack Web Development, and AI.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on building premium web applications.
+- 🌱 I’m currently learning advanced Full-Stack technologies.
+- 💬 Ask me about: **React, Next.js, Node.js, and TypeScript**.
+- 🚀 Current focus: **Web Development & AI Engineering**.
+- 📬 Contact: **contact@nilesh.dev**
