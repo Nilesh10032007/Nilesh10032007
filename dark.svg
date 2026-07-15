@@ -64,10 +64,10 @@
 
     <!-- ASCII Typing ClipPath (Line-by-line reveal via height) -->
     <clipPath id="asciiClip">
-      <rect x="60" y="140" width="370" height="0">
-        <animate attributeName="height" values="0; 18; 36; 54; 72; 90; 108; 126; 144; 162; 180; 198; 216; 234; 260"
-                 keyTimes="0; 0.07; 0.14; 0.21; 0.28; 0.35; 0.42; 0.49; 0.56; 0.63; 0.70; 0.77; 0.84; 0.91; 1"
-                 dur="2.2s" begin="0.6s" fill="freeze" calcMode="discrete"/>
+      <rect x="50" y="130" width="390" height="0">
+        <animate attributeName="height" values="0; 15; 30; 45; 60; 75; 90; 105; 120; 135; 150; 165; 180; 195; 210; 225; 240; 255; 270; 285; 300; 315; 330; 345; 370"
+                 keyTimes="0; 0.04; 0.08; 0.12; 0.16; 0.20; 0.24; 0.28; 0.32; 0.36; 0.40; 0.44; 0.48; 0.52; 0.56; 0.60; 0.64; 0.68; 0.72; 0.76; 0.80; 0.84; 0.88; 0.92; 1"
+                 dur="2.4s" begin="0.6s" fill="freeze" calcMode="discrete"/>
       </rect>
     </clipPath>
 
@@ -130,32 +130,23 @@
   <rect width="1180" height="610" rx="24" filter="url(#noiseFilter)" pointer-events="none"/>
 
   <!-- Background Animated Particles -->
-  <!-- Particle 1 -->
   <circle cx="150" cy="480" r="2" fill="#22D3EE" opacity="0.4">
     <animate attributeName="cy" values="480; 80" dur="12s" repeatCount="indefinite"/>
     <animate attributeName="cx" values="150; 170; 150" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0; 0.7; 0" dur="12s" repeatCount="indefinite"/>
   </circle>
-  <!-- Particle 2 -->
   <circle cx="350" cy="520" r="1.5" fill="#7C3AED" opacity="0.3">
     <animate attributeName="cy" values="520; 120" dur="15s" repeatCount="indefinite"/>
     <animate attributeName="cx" values="350; 330; 350" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0; 0.6; 0" dur="15s" repeatCount="indefinite"/>
   </circle>
-  <!-- Particle 3 -->
   <circle cx="700" cy="500" r="2.5" fill="#10B981" opacity="0.4">
     <animate attributeName="cy" values="500; 100" dur="11s" repeatCount="indefinite"/>
     <animate attributeName="cx" values="700; 730; 700" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0; 0.8; 0" dur="11s" repeatCount="indefinite"/>
   </circle>
-  <!-- Particle 4 -->
-  <circle cx="980" cy="460" r="2" fill="#22D3EE" opacity="0.3">
-    <animate attributeName="cy" values="460; 60" dur="14s" repeatCount="indefinite"/>
-    <animate attributeName="cx" values="980; 960; 980" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0; 0.6; 0" dur="14s" repeatCount="indefinite"/>
-  </circle>
 
-  <!-- ==================== LEFT PANEL (ASCII ART CARD) ==================== -->
+  <!-- ==================== LEFT PANEL (ASCII PORTRAIT) ==================== -->
   <!-- Glass Panel Shadow/Blur -->
   <rect x="40" y="40" width="410" height="530" rx="16" fill="#000000" fill-opacity="0.4" filter="url(#glassBlur)"/>
   <!-- Glass Panel Body -->
@@ -178,39 +169,47 @@
   <!-- Floating Glowing ASCII Portrait -->
   <g clip-path="url(#leftPanelClip)">
     <g filter="url(#asciiGlow)">
-      <!-- Gentle Floating Transformation -->
-      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="6s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite" additive="sum"/>
       
-      <!-- ASCII Characters wrapped in Line-by-line reveal clip -->
+      <!-- High Density ASCII Portrait Render of Nilesh's Face -->
       <g clip-path="url(#asciiClip)">
-        <text x="119" y="150" class="font-mono" font-size="12" fill="url(#asciiGrad)" xml:space="preserve" font-weight="bold" letter-spacing="1.2">
-          <tspan x="119" dy="0">         .::::::::::.         </tspan>
-          <tspan x="119" dy="18">       .::::::::::::::.       </tspan>
-          <tspan x="119" dy="18">      .::  __________  ::.      </tspan>
-          <tspan x="119" dy="18">     .::  [====][====]  ::.     </tspan>
-          <tspan x="119" dy="18">     .::       ||       ::.     </tspan>
-          <tspan x="119" dy="18">      .::     \__/     ::.      </tspan>
-          <tspan x="119" dy="18">       .::   \______/ ::.       </tspan>
-          <tspan x="119" dy="18">        .::          ::.        </tspan>
-          <tspan x="119" dy="18">         .::::::::::.         </tspan>
-          <tspan x="119" dy="18">          .::::::::.          </tspan>
-          <tspan x="119" dy="18">           /  |  |  \         </tspan>
-          <tspan x="119" dy="18">          /   |  |   \        </tspan>
-          <tspan x="119" dy="18">         /    |  |    \       </tspan>
-          <tspan x="119" dy="18">        /____/|  |\____\      </tspan>
+        <text x="80" y="140" class="font-mono" font-size="8.2" fill="url(#asciiGrad)" xml:space="preserve" font-weight="bold" letter-spacing="1.2">
+          <tspan x="80" dy="0">CG: .;iCttCttCi,,;:.:,,,1;,:80,  ,;;it1:..</tspan>
+          <tspan x="80" dy="11">08G1,.C@@008GG000G;iCGCCCtt1CC;;;tCt1;,,i1</tspan>
+          <tspan x="80" dy="11">8@@@GGG0G08@0G08@@GtCGGCGGG88G0800GCt;:i1t</tspan>
+          <tspan x="80" dy="11">@08@880CC8@@GCCGGGCtC088C0@@@@0GCCCC1ttCGC</tspan>
+          <tspan x="80" dy="11">@8080CG0@8GGG00GC0C11tCCGCCGGGG0@@8CtCGGGG</tspan>
+          <tspan x="80" dy="11">@@880@888CtGCG00GCt0G880Ctt80C0800GG000GG0</tspan>
+          <tspan x="80" dy="11">@@8@@@@8@8@@@@@@0CCGG@@88@0@@@0G0@@0Ct008@</tspan>
+          <tspan x="80" dy="11">@88@80@@@@@@@@@@@@@@8@@@@@@80@8080CG000CG0</tspan>
+          <tspan x="80" dy="11">8G0@@@G088@@@@@@@8@@@@@@@@00@8GCGC10@@8880</tspan>
+          <tspan x="80" dy="11">CG8880GG0@@@@@@@@@@@@@@@@@GG88@88808@@@@@@</tspan>
+          <tspan x="80" dy="11">0@8GtC08@@@8t11tCC11t0@@@titt0@80@@@@@@@80</tspan>
+          <tspan x="80" dy="11">808@@@08@@@;         :G@@iC08@@8G880G8@@08</tspan>
+          <tspan x="80" dy="11">GG@@0GG@@@G,         ,C@@88@@GGGCt8@@@@8@@</tspan>
+          <tspan x="80" dy="11">8@@@@@@@8@;;i1t1::;i1tC@00@@Ct1;88GG@@@@@@</tspan>
+          <tspan x="80" dy="11">:1@@08@C;CCC1tCCCCtiC808GC8@@@@8GC11G0G0@@</tspan>
+          <tspan x="80" dy="11">;8C1.i@0,i;i.  ,:.;...18G;ttG1t@1,.C@C,:1t</tspan>
+          <tspan x="80" dy="11">GG,, ;@8C1C,;;:i::ti:;G@t . :  ;0  ,,..,1t</tspan>
+          <tspan x="80" dy="11">G080.;@@@@81,:iiitC1,i@@; ,;1i:iG;;1i1C8@@</tspan>
+          <tspan x="80" dy="11">,ii;..1it1t@Gi;::;i1C8Ct:.tttt11111ttt1tt1</tspan>
+          <tspan x="80" dy="11">.        .,C@@0i;iG8@@,  :;tC:            </tspan>
+          <tspan x="80" dy="11">   .:;...,. ;G@@@@@@@8;,,  :t1............</tspan>
+          <tspan x="80" dy="11">tC08@1... ..  ,iCGGt;: :08C1GG;.          </tspan>
+          <tspan x="80" dy="11">@@@@C .     ..      .. ..G@@@@@8Gt;. .    </tspan>
+          <tspan x="80" dy="11">@@@@0000;......:1@@C@@@@@@1 .   .         </tspan>
         </text>
       </g>
     </g>
   </g>
 
-  <!-- ASCII Typing Blinking Cursor (hides after reveal) -->
-  <rect x="371" y="380" width="8" height="15" fill="#22D3EE" opacity="1">
-    <!-- Follow reveal height coordinate -->
-    <animate attributeName="y" values="145; 163; 181; 199; 217; 235; 253; 271; 289; 307; 325; 343; 361; 379"
-             keyTimes="0; 0.07; 0.14; 0.21; 0.28; 0.35; 0.42; 0.49; 0.56; 0.63; 0.70; 0.77; 0.84; 0.91; 1"
-             dur="2.2s" begin="0.6s" fill="freeze" calcMode="discrete"/>
+  <!-- Blinking Cursor following reveal -->
+  <rect x="360" y="390" width="8" height="11" fill="#22D3EE" opacity="1">
+    <animate attributeName="y" values="135; 146; 157; 168; 179; 190; 201; 212; 223; 234; 245; 256; 267; 278; 289; 300; 311; 322; 333; 344; 355; 366; 377; 388"
+             keyTimes="0; 0.04; 0.08; 0.12; 0.16; 0.20; 0.24; 0.28; 0.32; 0.36; 0.40; 0.44; 0.48; 0.52; 0.56; 0.60; 0.64; 0.68; 0.72; 0.76; 0.80; 0.84; 0.88; 1"
+             dur="2.4s" begin="0.6s" fill="freeze" calcMode="discrete"/>
     <animate attributeName="opacity" values="1; 0; 1" dur="0.8s" repeatCount="indefinite"/>
-    <animate attributeName="visibility" values="visible; hidden" dur="0.1s" begin="2.8s" fill="freeze"/>
+    <animate attributeName="visibility" values="visible; hidden" dur="0.1s" begin="3.0s" fill="freeze"/>
   </rect>
 
   <text x="245" y="470" class="font-mono" font-size="16" fill="#F8FAFC" font-weight="700" text-anchor="middle" letter-spacing="2">@Nilesh10032007</text>
