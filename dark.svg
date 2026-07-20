@@ -291,7 +291,7 @@
     <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="1.8s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" values="0, 8; 0, 0" dur="0.4s" begin="1.8s" fill="freeze"/>
     <text x="520" y="222" fill="#22D3EE">📍 Location:</text>
-    <text x="660" y="222" fill="#94A3B8">Mumbai, India</text>
+    <text x="660" y="222" fill="#94A3B8">Rajasthan, India</text>
   </g>
 
   <!-- Row 2: Education -->
@@ -323,7 +323,7 @@
     <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="2.6s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" values="0, 8; 0, 0" dur="0.4s" begin="2.6s" fill="freeze"/>
     <text x="520" y="334" fill="#EAB308">📧 Email:</text>
-    <text x="660" y="334" fill="#94A3B8">contact@nilesh.dev</text>
+    <text x="660" y="334" fill="#94A3B8">nilesh11cho@gmail.com</text>
   </g>
 
   <!-- Divider -->
