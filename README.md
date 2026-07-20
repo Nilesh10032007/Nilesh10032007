@@ -12,4 +12,4 @@ I'm a passionate developer focused on Frontend Engineering, Full Stack Web Devel
 - 🌱 I’m currently learning advanced Full-Stack technologies.
 - 💬 Ask me about: **React, Next.js, Node.js, and TypeScript**.
 - 🚀 Current focus: **Web Development & AI Engineering**.
-- 📬 Contact: **contact@nilesh.dev**
+- 📬 Contact: **nilesh11cho@gmail.com**
