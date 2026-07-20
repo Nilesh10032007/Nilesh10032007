@@ -165,31 +165,39 @@
       
       <!-- High Density ASCII Portrait Render of Nilesh's Face -->
       <g clip-path="url(#asciiClip)">
-        <text x="80" y="140" class="font-mono" font-size="8.2" fill="url(#asciiGrad)" xml:space="preserve" font-weight="bold" letter-spacing="1.2">
-          <tspan x="80" dy="0">..,,,,.:;:+;,+;*+;,::,:,;+.,:++,,.:,:??%SS</tspan>
-          <tspan x="80" dy="11">.,....:*%%SS+?#SSSS?????%?+??*+*+*%%%%S##S</tspan>
-          <tspan x="80" dy="11">:,,,:+?S#@###SS##%#S%SSS@SSS%*%%SSS@@SSS%S</tspan>
-          <tspan x="80" dy="11">;:+*%S###S##SS#S%S%%%SS%SSS#%SSS#SSSSSS@@@</tspan>
-          <tspan x="80" dy="11">++?*S#@@@#@@#@@#@@#SS@####S#SSS####@@@@@@@</tspan>
-          <tspan x="80" dy="11">%??%SS%####S@##@@@@@@@@@##S%#@###SS####S##</tspan>
-          <tspan x="80" dy="11">S%?SSSSSS%S#SS#@#%%SS@@%%###@@@#%SS%%S##S%</tspan>
-          <tspan x="80" dy="11">%%??%%###@@##S@@;...,?@S##SS@@##SS%%##S##S</tspan>
-          <tspan x="80" dy="11">?+%++**?+*?#@@#%*?*+*S#@@S%S#@@@##S%####@@</tspan>
-          <tspan x="80" dy="11">%%*.,,.,:++%+S?*+;+*;?S*??%;?***?#S%S*%S#%</tspan>
-          <tspan x="80" dy="11">#+.:::+*+;?S;%@S+;+?+%S,+:?+++%SSS???*?S@?</tspan>
-          <tspan x="80" dy="11">,,,,,,:;::::,:;*#S*?#S:;%+;+++++++++++++*;</tspan>
-          <tspan x="80" dy="11">,,,,,,,.,,::*;.:;%S##*;+?+..,,,,,,,,,,,,,:</tspan>
-          <tspan x="80" dy="11">:::::,:?%##@S,....:;:,;%@#%*:,,,,,,,,:::::</tspan>
-          <tspan x="80" dy="11">::::::*@@@@@S?%;,,.,:?#%@@@@?,,,,,,,,,,,::</tspan>
-          <tspan x="80" dy="11">;;;;;:S@@@@@@@@%,,,,,?@@###@#:::::::::::::</tspan>
-          <tspan x="80" dy="11">;::::*@@@@@@@##S,.,,.*@##@#@@+,:::::::::::</tspan>
-          <tspan x="80" dy="11">:::::S@@@@@@@@##:.,,.*@##@@@@S::::::::::::</tspan>
-          <tspan x="80" dy="11">::::+@@@@@@@@@@@+.,,.?@#@@@@@@*:::::::::::</tspan>
-          <tspan x="80" dy="11">:::,%@@@@@@@@@@@*.,,.%@#@@@@@@S:::::::::::</tspan>
-          <tspan x="80" dy="11">::::#@@@@@@@@@@@%.,,.%@#@@@@@@@+::::::::::</tspan>
-          <tspan x="80" dy="11">:::;@@@@@@@@@@@@%.,,.%@@@@@@@@@?::::::::::</tspan>
-          <tspan x="80" dy="11">::,+@@@@@@@@@@@@*.,,.?@@@@#@@@@#:::::,:,,,</tspan>
-          <tspan x="80" dy="11">::,*@@@@@@@@@@@@;.,,.?@@@@%S@@@@;,:,::,,,,</tspan>
+        <text x="55" y="140" class="font-mono" font-size="9" fill="url(#asciiGrad)" xml:space="preserve" font-weight="bold" letter-spacing="0.5">
+          <tspan x="55" dy="0">     ....,,..:+. ,;,.:+;::.  .:.  ..  :;..   .,+;.     .   :??*?</tspan>
+          <tspan x="55" dy="10">   ..  .;+**;?S*..;*%%%%??*:;;:;::+*;;SS, ,+++?*;,:...:+++;+??%S</tspan>
+          <tspan x="55" dy="10">  .  .,*??%##S#@S*;S@#S#SS##@%*%S%%%%%%???%%??;:+?*+*??%SSSS%SSS</tspan>
+          <tspan x="55" dy="10">.  ,:;*%#SS@@@#@@##S%%@@S%%SSS%%SS%%#@@##S%%%?**???%SSS##@@####S</tspan>
+          <tspan x="55" dy="10">:::?%%SSS#@@###SSS%%S#SS%SS%%%*?%S%%%S#S%S#S%??%%S%S#%%S%%SS%?%S</tspan>
+          <tspan x="55" dy="10">+*%SSS@@###SS@@######S?%%SSS%?%%##S%?SS%SSS#SSSSSS#@@##@SSS###@@</tspan>
+          <tspan x="55" dy="10">*+%#@@@@@@@#@@@@@@#@@@@@@@@@SSSS@@#@##@@#S@@S%%SS#@@SS##@@@@@@@@</tspan>
+          <tspan x="55" dy="10">?+?#%%SS@@@@@@#S#@##@@@@@@@@@@@#@@@@@###S%%*%@@S%SS###S%#@@@@@#S</tspan>
+          <tspan x="55" dy="10">%##%%S%?%%%%%S%S#@@%%S@@@@@@@@@@@@@@#%###S#%S@@@@@@#@S%S%%%?%#SS</tspan>
+          <tspan x="55" dy="10">?%S%S#S%SSS%%%#@S%%S@@@@%???%??%#@@S*?%S@S#@@@@@@#S??%SS%?%SSS#@</tspan>
+          <tspan x="55" dy="10">??%%?%S####@@@SS@##S@@@*,      .;S@S?##@@SS##S#@S##SSS%%%SS@@S##</tspan>
+          <tspan x="55" dy="10">+**+*?##S?%?S@#@@#S#@@#;:,,. .,:;%@@@@#?*?%S@@@@@@@@@S%%*%S#S%%?</tspan>
+          <tspan x="55" dy="10">+::;;;;:?;,++;?#@@@@%%%??%S%*?*%###%#@##%%#%?#@@@@####@%?SS###@#</tspan>
+          <tspan x="55" dy="10">. . .    , ?*,*S%;*@*:**:,,+:*,,;%#??%S%##+,*#?;+S:+##@#%##@*+##</tspan>
+          <tspan x="55" dy="10"> ......,,,,+ *#*;.+@#*%;:;:;:*+:;S#:..;. %; ,:.,;?++??**+***+,;*</tspan>
+          <tspan x="55" dy="10">,,...,;%S:;+:;%S#,;@#@#%;;++*%?;?@S.,+*+;%?*?**S#@@@@@S?%?*?**%@</tspan>
+          <tspan x="55" dy="10">.......,,..,:,,,,. ,,::#@%*;;+?#@;:,+%?+::::::::::::::::;;:;++::</tspan>
+          <tspan x="55" dy="10">...........      .,. .:,?@@#S#@@@,...;?; ...         ...........</tspan>
+          <tspan x="55" dy="10">........ ..,:+*?%@*...,. ,;?SS%*;.+S?*%%:.  ....................</tspan>
+          <tspan x="55" dy="10">.......;?S#@@@@@@?     ..   ..., .,;#@@@@S%*,...................</tspan>
+          <tspan x="55" dy="10">,,,,,.,#@@@@@@@@@*+;*+.. ...  .,;S@++@#@@@@@#. .     ...........</tspan>
+          <tspan x="55" dy="10">,,,,,,*@@@@@@@@@@@@@@@?... ..,,:+@@@@@@@#@@#@+..................</tspan>
+          <tspan x="55" dy="10">,,,,,:#@@@@@@@@@@@###@S. . .... ,@@@@@@@@@@@@S...........,,,,,,,</tspan>
+          <tspan x="55" dy="10">,,,,.?@@@@@@@@@@@@@@###: .    ..:@@@@@@@@@@@@@+.,,,,,,,,,,,,,,,,</tspan>
+          <tspan x="55" dy="10">,,,.:@@@@@@@@@@@@@@@@#@+ .    . :##@@#@@@@@@@@#,......,.,...,,,,</tspan>
+          <tspan x="55" dy="10">,,,.?@@@@@@@@@@@@@@@@#@? .    . :@@@##@@@@@@@@@?.............,..</tspan>
+          <tspan x="55" dy="10">,,,:@@@@@@@@@@@@@@@@@@@S. .   . ;@@@@@@@@@@@@@@@;.,,,,,,,,,.,,,,</tspan>
+          <tspan x="55" dy="10">,,.%@@@@@@@@@@@@@@@@@@@#, .   . ;@@#@@@@@@@@@@@@S.,,,..,,,,,,,,,</tspan>
+          <tspan x="55" dy="10">..,@@@@@@@@@@@@@@@@@@@@@; .   . *@@#@@@@@@@@@@@@@+.,..,..,,.,,,,</tspan>
+          <tspan x="55" dy="10">,.+@@@@@@@@@@@@@@@@@@@@@* .   . *@@@@@@@@@@@@@@@@#,,,...,,,,,,,,</tspan>
+          <tspan x="55" dy="10">..%@@@@@@@@@@@@@@@@@@@@@* .   . *@@@@@@@@@@@@@@@@@+.,,,,,,,,,,,,</tspan>
+          <tspan x="55" dy="10">.,#@@@@@@@@@@@@@@@@@@@@@; .   . +@@@@@@@@@@@@@@@@@?.............</tspan>
         </text>
       </g>
     </g>
@@ -285,7 +293,7 @@
     <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="1.8s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" values="0, 8; 0, 0" dur="0.4s" begin="1.8s" fill="freeze"/>
     <text x="520" y="222" fill="#2563EB">📍 Location:</text>
-    <text x="660" y="222" fill="#475569">Rajasthan, India</text>
+    <text x="660" y="222" fill="#475569">Mumbai, India</text>
   </g>
 
   <!-- Row 2: Education -->
@@ -309,7 +317,7 @@
     <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="2.4s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" values="0, 8; 0, 0" dur="0.4s" begin="2.4s" fill="freeze"/>
     <text x="520" y="306" fill="#DB2777">🔗 Portfolio:</text>
-    <text x="660" y="306" fill="#475569"></text>
+    <text x="660" y="306" fill="#475569">nilesh.dev</text>
   </g>
 
   <!-- Row 5: Email -->
@@ -317,7 +325,7 @@
     <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="2.6s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" values="0, 8; 0, 0" dur="0.4s" begin="2.6s" fill="freeze"/>
     <text x="520" y="334" fill="#D97706">📧 Email:</text>
-    <text x="660" y="334" fill="#475569">nilesh11cho@gmail.com</text>
+    <text x="660" y="334" fill="#475569">contact@nilesh.dev</text>
   </g>
 
   <!-- Divider -->
