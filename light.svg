@@ -293,7 +293,7 @@
     <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="1.8s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate" values="0, 8; 0, 0" dur="0.4s" begin="1.8s" fill="freeze"/>
     <text x="520" y="222" fill="#2563EB">📍 Location:</text>
-    <text x="660" y="222" fill="#475569">Mumbai, India</text>
+    <text x="660" y="222" fill="#475569">RAJASTHAN, India</text>
   </g>
 
   <!-- Row 2: Education -->
